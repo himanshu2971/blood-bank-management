@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Login from "../pages/LoginPage";
 import "./Header.css";
 
+
 function Header() {
   return (
     <header>
@@ -42,6 +43,11 @@ function Header() {
               <li className="nav-item">
                 <Link className="nav-link" to="/donors">
                   Donors
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/register">
+                  Register
                 </Link>
               </li>
               <li className="nav-item">

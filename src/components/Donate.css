@@ -14,7 +14,7 @@ label{
     font-size: 1vw;
 }
 .appointment-button{
-    background-color: red;
+    background-color: rgb(255, 38, 0);
     color: azure;
     border: none;
 }

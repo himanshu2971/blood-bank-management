@@ -10,6 +10,8 @@ import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Policy from './pages/Policy';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -24,8 +26,10 @@ function App() {
           <Route exact path="/hospitals" component={HospitalPage} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/policy" component={Policy} />
         </Switch>
         <Footer />
+        <ToastContainer />
       </div>
     </Router>
   );

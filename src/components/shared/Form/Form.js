@@ -47,7 +47,7 @@ const Form = ({ formType, submitBtn, formTitle }) => {
               onChange={(e) => setRole(e.target.value)}
               defaultChecked
             />
-            <label htmlFor="adminRadio" className="form-check-label">
+            <label htmlFor="donorRadio" className="form-check-label">
               Donor
             </label>
           </div>
